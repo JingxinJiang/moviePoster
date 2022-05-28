@@ -1,0 +1,134 @@
+
+body{
+    width:960px;
+    margin:0 auto;
+    padding:20px;
+}
+.one{
+    text-align:center;
+    font-weight: bold;
+    font-size:3em;
+    color:black;   
+    border-radius: 35px;
+    background-color: rgb(17, 245, 169);
+    margin:0 auto;
+    margin-bottom:30px;
+    
+}
+.two{
+    text-align:center;
+    font-weight: bold;
+    font-size:3em;
+    color:black;
+    text-decoration:none;
+    border-radius: 35px;
+    background-color: rgb(17, 245, 169);
+    margin:0 auto;
+    margin-bottom:30px;
+    
+}
+.two>a{
+    text-decoration:none;
+    color:black;
+}
+.two>a:hover{
+    color:#8f11e4;
+}
+.parentContainer{
+display:flex;
+}
+.child1{
+    flex:35%;
+}
+.child2{
+    flex:65%;
+}
+.parentContainer1{
+    display:flex;
+    }
+    .child3{
+        flex:50%;
+    }
+    .child4{
+        margin-left:5%;
+        flex:45%;
+    }
+#china{
+    font-size: 20px;
+    width:90%;
+    text-shadow:5px 5px 4px burlywood;
+
+}
+.hometown{
+    color:cadetblue;
+    text-align:center;
+}
+
+.cite{
+    text-align:center;
+    color:cornflowerblue;
+    text-shadow:5px 5px 4px burlywood;
+}
+
+
+.imgPosition{
+    text-align :center;
+}
+.imgControl{
+    box-shadow: 5px 5px 10px 10px rgb(196, 240, 35);
+    /*border:5px solid rgb(7, 113, 252);
+    border-radius:50px;*/
+    text-align :center;
+}
+/*table*/
+.table1{
+    border:5px solid rgb(128, 128, 128);
+    width:100%;
+    font-size: 12px; 
+    color:rgb(117, 115, 115);
+    height: 200px; 
+    text-align:center;
+    /*vertical-align:middle; */
+    margin:auto;
+    border-color:rgba(129, 126, 128, 0.49); 
+    margin-top:20px;
+   
+    border-collapse:collapse;
+}
+th, td{
+    border:2px solid rgb(128, 128, 128);
+}
+.tableAlign{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+    padding-left:5px;
+    padding-right:5px;
+    
+
+    
+}
+.tableAlign0{
+    font-size: 150%;
+    padding-left:5px;
+    padding-right:5px;
+    width:50%;
+}
+.table1header{
+background-color: rgb(204, 181, 247);
+}
+.odd{
+    background-color:#ca9aeb;  
+    
+    color:blue;
+}
+
+.even{
+    background-color:#89f7ed; 
+    
+
+}
+tr:hover{
+    background-color:#efecf0; 
+}
+

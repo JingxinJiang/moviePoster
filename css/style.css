@@ -1,0 +1,115 @@
+/*name:Jingxin Jiang, student number:991657051, campus:Davis */
+body{
+    
+    margin:0 auto;
+    padding:0;
+    background:url("../images/background.jpg") repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.gridContainer{
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+
+grid-template-areas: 
+                    "h h h h"
+                    "m1 m1 m2 m2"
+                    "c1 c1 c2 c2"
+                    "f f f f";
+
+}
+
+header{
+    text-align:center;
+    grid-area:h;
+    opacity: 0.5;
+    background-color:rgb(36, 85, 248);
+    background-size: cover;
+    padding:20px;
+    /*margin-bottom:20px;*/
+}
+header>h1,h2{
+color:white;
+}
+.one a{
+    color:rgb(126, 250, 250);
+    text-decoration: none;
+}
+.one a:hover{
+    color:red;
+}
+.website a{
+    color:rgb(219, 245, 73);
+    text-decoration: none;
+}
+.website a:hover{
+    color:red;
+}
+.movie1{
+    border-right: 2px solid cadetblue;
+    text-align:center;
+    grid-area:m1; 
+}
+.movie2{
+    
+    text-align:center;
+    grid-area:m2; 
+}
+.m1Actors{
+    display:flex;
+    flex-wrap:wrap;
+    grid-area:c1;
+    text-align:center;
+    border-right: 2px solid cadetblue;
+}
+.fig1{
+    flex:50%;
+}
+.fig2{
+    flex:50%;
+}
+.fig3{
+    flex:50%;
+}
+.fig4{
+    flex:50%;
+}
+.m2Actors{
+    display:flex;
+    flex-wrap:wrap;
+    grid-area:c2;
+    text-align:center;
+}
+footer{
+    grid-area:f;
+    display:flex;
+    text-align:center;
+    background-color:rgb(180, 179, 179);
+    
+}
+.theatre1{
+    grid-area:f1; 
+    flex:49.9%;
+    border-right: 2px solid cadetblue;
+}
+.theatre2{
+    grid-area:f2; 
+    flex:50%;
+
+}
+.cite{
+    color:blue;
+    
+    text-shadow:5px 5px 4px burlywood;
+}
+.cite a:hover{
+    color:red;
+}
+.nameTheatre{
+font-size: 24px;
+font-weight: bold;
+color:black;
+}
+.nameTheatre a:hover{
+    color:red;
+}
